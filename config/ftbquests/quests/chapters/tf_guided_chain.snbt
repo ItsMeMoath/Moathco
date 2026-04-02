@@ -1,0 +1,311 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "tf_guided_chain"
+	group: "AA00000000000001"
+	icon: "twilightforest:twilight_shard"
+	id: "A002000000000001"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"§3§lTwilight Forest has a mandatory boss order."
+				""
+				"§7Skipping bosses causes the next area to be surrounded by §cprotection magic§7 you cannot break."
+				"§7Follow this chain in order. Each boss drops a trophy — bring it back."
+				""
+				"§8The forest is vast. Stay on the path."
+			]
+			id: "A002000000000002"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "A002100000000001"
+				title: "Enter the Twilight Forest portal."
+				type: "checkmark"
+			}]
+			title: "§3§lThe Twilight Path"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A002000000000002"]
+			description: [
+				"§3Boss 1: §fThe Naga"
+				""
+				"§7A giant serpent that coils around its clearing."
+				"§7Look for a §anaga courtyard§7 — a circular area of trimmed grass in the dense forest."
+				""
+				"§aStrategy: §7Stay mobile. It charges in a straight line."
+				"§7Aim for the §ehead§7 — body hits are resisted."
+				""
+				"§eDrop: §7Naga Scale — used for Naga Scale armor."
+			]
+			id: "A002000000000003"
+			rewards: [
+				{
+					count: 5
+					id: "A002200000000001"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "A002100000000002"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			title: "§3Boss I — The Naga"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["A002000000000003"]
+			description: [
+				"§3Boss 2: §fThe Twilight Lich"
+				""
+				"§7Lives at the top of a §eTwilight Lich Tower§7 — tall, dark towers visible from far away."
+				""
+				"§aStrategy: §7The Lich has §c3 shield orbs§7. Reflect projectiles back at it to break shields."
+				"§7Once shields are down, go melee."
+				""
+				"§eDrop: §7Scepters, Twilight Armor — extremely useful for the rest of TF."
+			]
+			id: "A002000000000004"
+			rewards: [
+				{
+					count: 8
+					id: "A002200000000002"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					id: "A002200000000003"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "A002100000000003"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "§3Boss II — The Twilight Lich"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A002000000000004"]
+			description: [
+				"§3Boss 3: §fThe Minoshroom"
+				""
+				"§7Found deep inside §bLabyrinths§7 — giant hedge mazes underground."
+				"§7The maze is huge. Bring §estring§7 to mark your path, or use §eMagic Map§7."
+				""
+				"§aStrategy: §7It's a minotaur with a mushroom hat."
+				"§7High HP, slow attacks. Keep your distance and chip away."
+				""
+				"§eDrop: §7Meef Stroganoff — best food in early TF."
+			]
+			id: "A002000000000005"
+			rewards: [
+				{
+					count: 8
+					id: "A002200000000004"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "A002100000000004"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			title: "§3Boss III — The Minoshroom"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["A002000000000005"]
+			description: [
+				"§3Boss 4: §fThe Hydra"
+				""
+				"§7Found in §6Fire Swamps§7 — red-lit swamp biomes with fire jets on the ground."
+				"§7The Hydra lives in a large hollow hill — look for a §6smoking crater§7."
+				""
+				"§aStrategy: §7Three heads. Cutting one makes it grow two more."
+				"§7Don't cut heads. §cBurn them§7 (fire aspect or flint and steel after severing)."
+				""
+				"§eDrop: §7Hydra Chop — food. Fiery Blood — used for Fiery armor."
+			]
+			id: "A002000000000006"
+			rewards: [
+				{
+					count: 10
+					id: "A002200000000005"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					id: "A002200000000006"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "A002100000000005"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			title: "§3Boss IV — The Hydra"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["A002000000000006"]
+			description: [
+				"§3Boss 5: §fThe Knight Phantom"
+				""
+				"§7Found in §8Haunted Towers§7 — tall grey towers at the edge of the Dark Forest biome."
+				""
+				"§aStrategy: §7Six phantom knights spawn in waves."
+				"§7Each is weak to a different weapon type — cycle through sword, axe, and bow."
+				"§7Killing them all ends the encounter."
+				""
+				"§eDrop: §7Knight Metal — used for strong armor and tools."
+			]
+			id: "A002000000000007"
+			rewards: [
+				{
+					count: 10
+					id: "A002200000000007"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "A002100000000006"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			title: "§3Boss V — Knight Phantom"
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["A002000000000007"]
+			description: [
+				"§3Boss 6: §fThe Ur-Ghast"
+				""
+				"§7Found at the top of the §8Dark Tower§7 — the massive black tower deep in the Dark Forest."
+				"§7The tower is dangerous. Use the §eTwilight Scepter§7 from the Lich to navigate it."
+				""
+				"§aStrategy: §7Giant floating ghast. It cries. Don't let it cry too long — spawns minions."
+				"§7Carminite Builders construct obsidian around you. Destroy them first."
+				""
+				"§eDrop: §7Carminite — used for advanced TF crafting."
+			]
+			id: "A002000000000008"
+			rewards: [
+				{
+					count: 12
+					id: "A002200000000008"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					id: "A002200000000009"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "A002100000000007"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			title: "§3Boss VI — The Ur-Ghast"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["A002000000000008"]
+			description: [
+				"§3Boss 7: §fThe Snow Queen"
+				""
+				"§7Found in the §bAurora Palace§7 — a crystalline palace in the §bGlacier§7 biome."
+				"§7The palace interior is treacherous — ice floors, spike traps."
+				""
+				"§aStrategy: §7She shoots ice beams. Get close and deal melee damage."
+				"§7Fire Resistance potion helps. So does high armor."
+				""
+				"§eDrop: §7Ice Crystal — unique enchanting material."
+			]
+			id: "A002000000000009"
+			rewards: [
+				{
+					count: 15
+					id: "A00220000000000A"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					id: "A00220000000000B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "A002100000000008"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "§3Boss VII — The Snow Queen"
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["A002000000000009"]
+			description: [
+				"§3§lTwilight Forest: COMPLETE"
+				""
+				"§7Seven bosses. One forest. All of it conquered."
+				"§7The Twilight yields to the Architect."
+				""
+				"§6Phase 3 unlocks. The industrial path continues."
+			]
+			id: "A00200000000000A"
+			rewards: [
+				{
+					count: 30
+					id: "A00220000000000C"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					id: "A00220000000000D"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 5
+					id: "A00220000000000E"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "A002100000000009"
+				title: "The Twilight yields to the Architect."
+				type: "checkmark"
+			}]
+			title: "§3§l✦ Forest Conquered ✦"
+			x: 0.0d
+			y: 24.0d
+		}
+	]
+	title: "§3§lTwilight Path"
+}

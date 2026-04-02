@@ -44,7 +44,7 @@ ServerEvents.tick(event => {
         // --- Clear Blood Moon at dawn ---
         if (time < 1000 && data.getBoolean('blood_moon_active')) {
             data.putBoolean('blood_moon_active', false);
-            server.tell('§e§l✦ The Blood Moon fades. Dawn breaks over MoathCo lands. ✦');
+            server.tell('§e§l✦ The Blood Moon fades. Dawn breaks over Astra Mekanika lands. ✦');
         }
 
         // --- Blood Moon mob spawning boost ---

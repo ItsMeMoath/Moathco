@@ -35,7 +35,7 @@ StartupEvents.registry('item', event => {
         .tooltip('§6§l— The Convergence —')
         .tooltip('§7You have mastered every system, conquered every dimension,')
         .tooltip('§7and bent five ages of technology to your will.')
-        .tooltip('§dYou are the Architect. The MoathCo Adventure is complete.')
+        .tooltip('§dYou are the Architect. Astra Mekanika is complete.')
         .tooltip('§8Forged from the Dragon\'s Egg and the Heart of the Vault.');
 
 });

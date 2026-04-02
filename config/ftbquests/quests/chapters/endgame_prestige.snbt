@@ -1,0 +1,264 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "endgame_prestige"
+	group: "CC00000000000001"
+	icon: "kubejs:prestige_seal"
+	id: "C001000000000001"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"§5§lYou have forged the Vault Convergence."
+				"§5§lYou are the Architect."
+				""
+				"§7But the cycle is not over."
+				""
+				"§dThe Prestige system allows you to ascend beyond Phase V."
+				"§dEach Prestige brings greater rewards — and harder enemies."
+				""
+				"§8Craft a §5Prestige Seal§8 to begin:"
+				"§8  D A D"
+				"§8  A N A"
+				"§8  D A D"
+				"§8D = Awakened Draconium  A = Astra Alloy  N = Nether Star"
+			]
+			id: "C001000000000002"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "C001100000000001"
+				item: "kubejs:vault_convergence"
+				type: "item"
+			}]
+			title: "§5§l✦ Beyond the Architect ✦"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C001000000000002"]
+			description: [
+				"§5Prestige I — §fAwakened"
+				""
+				"§7You have walked the path once."
+				"§7The Vault remembers you."
+				""
+				"§dSubmit your §5Prestige Seal§d to ascend."
+				""
+				"§cNote: §7After Prestige I, mob HP scales further."
+				"§8Difficulty: §c★★☆☆☆"
+			]
+			id: "C001000000000003"
+			rewards: [
+				{
+					id: "C001200000000001"
+					item: "kubejs:prestige_badge_i"
+					type: "item"
+				}
+				{
+					id: "C001200000000002"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 5
+					id: "C001200000000003"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "C001200000000004"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					command: "/scoreboard players set global astra_prestige 1"
+					id: "C001200000000005"
+					player_command: 0b
+					type: "command"
+				}
+			]
+			size: 2.5d
+			tasks: [{
+				consume_items: true
+				id: "C001100000000002"
+				item: "kubejs:prestige_seal"
+				type: "item"
+			}]
+			title: "§5✦ Prestige I — Awakened"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C001000000000003"]
+			description: [
+				"§dPrestige II — §fAscended"
+				""
+				"§7Twice reborn. The Vault bends to your presence."
+				"§7Enemies are stronger. Your legend grows."
+				""
+				"§dRequirements:"
+				"§71x §5Prestige Seal§7 (craft again)"
+				"§71x §4Nether Star§7 + §b4 Diamonds§7 (submitted below)"
+				""
+				"§8Difficulty: §c★★★☆☆"
+			]
+			id: "C001000000000004"
+			rewards: [
+				{
+					id: "C001200000000006"
+					item: "kubejs:prestige_badge_ii"
+					type: "item"
+				}
+				{
+					id: "C001200000000007"
+					type: "xp_levels"
+					xp_levels: 75
+				}
+				{
+					count: 10
+					id: "C001200000000008"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 50
+					id: "C001200000000009"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					id: "C00120000000000A"
+					item: "draconicevolution:draconic_chestplate"
+					type: "item"
+				}
+				{
+					command: "/scoreboard players set global astra_prestige 2"
+					id: "C00120000000000B"
+					player_command: 0b
+					type: "command"
+				}
+			]
+			size: 2.5d
+			tasks: [
+				{
+					consume_items: true
+					id: "C001100000000003"
+					item: "kubejs:prestige_seal"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "C001100000000004"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4
+					id: "C001100000000005"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			title: "§d✦ Prestige II — Ascended"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["C001000000000004"]
+			description: [
+				"§b§lPrestige III — §f§lTranscendent"
+				""
+				"§7Three cycles. You are beyond the Architect."
+				"§7Beyond the Vault. Beyond the phases."
+				""
+				"§bYou are Transcendent."
+				""
+				"§dRequirements:"
+				"§71x §5Prestige Seal§7 (craft again)"
+				"§73x §4Nether Stars"
+				"§71x §5Awakened Draconium Block"
+				""
+				"§8Difficulty: §c★★★★★"
+				"§8§oFinal Prestige. Legendary status."
+			]
+			id: "C001000000000005"
+			rewards: [
+				{
+					id: "C00120000000000C"
+					item: "kubejs:prestige_badge_iii"
+					type: "item"
+				}
+				{
+					id: "C00120000000000D"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					count: 20
+					id: "C00120000000000E"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 100
+					id: "C00120000000000F"
+					item: "kubejs:astra_coin"
+					type: "item"
+				}
+				{
+					id: "C001200000000010"
+					item: "draconicevolution:draconic_chestplate"
+					type: "item"
+				}
+				{
+					id: "C001200000000011"
+					item: "draconicevolution:draconic_sword"
+					type: "item"
+				}
+				{
+					command: "/scoreboard players set global astra_prestige 3"
+					id: "C001200000000012"
+					player_command: 0b
+					type: "command"
+				}
+				{
+					command: "/title @a title {\"text\":\"✦ TRANSCENDENT ✦\",\"color\":\"aqua\",\"bold\":true}"
+					id: "C001200000000013"
+					player_command: 0b
+					type: "command"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			tasks: [
+				{
+					consume_items: true
+					id: "C001100000000006"
+					item: "kubejs:prestige_seal"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3
+					id: "C001100000000007"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "C001100000000008"
+					item: "draconicevolution:awakened_draconium_block"
+					type: "item"
+				}
+			]
+			title: "§b§l✦ Prestige III — Transcendent ✦"
+			x: 0.0d
+			y: 13.0d
+		}
+	]
+	title: "§5§lPrestige"
+}

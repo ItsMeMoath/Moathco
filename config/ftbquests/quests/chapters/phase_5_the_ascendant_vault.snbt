@@ -15,7 +15,7 @@
 				""
 				"§7Everything you have built leads here. Applied Energistics 2 replaces your Refined Storage network with a true logistics computer. Draconic Evolution gives you weapons that rewrite the rules of combat. Blood Magic reaches its absolute ceiling."
 				""
-				"§dForge the Heart of the Vault to complete MoathCo Adventure."
+				"§dForge the Heart of the Vault to complete Astra Mekanika."
 			]
 			id: "6042DC0FE3BED1FF"
 			shape: "hexagon"
@@ -536,12 +536,11 @@
 				}
 				{
 					command: "/function moathco:phase_5_broadcast"
-					id: "B5000000000000A1"
-					player_command: 0b
+					id: "256CCCDC3B8797F1"
 					type: "command"
 				}
 				{
-					id: "B5000000000000A2"
+					id: "168E6F593D791889"
 					item: "kubejs:moathco_files_vol_5"
 					type: "item"
 				}
@@ -577,7 +576,7 @@
 				"§4Q §f= Master Blood Orb (×2)   §6M §f= Atomic Alloy"
 				""
 				"§c⚠ The Dragon Egg and Heart of the Vault are consumed."
-				"§a✔ §6You are the Architect. §aMoathCo Adventure — Complete."
+				"§a✔ §6You are the Architect. §aAstra Mekanika — Complete."
 			]
 			id: "7C4A8E1F3B2D9A56"
 			rewards: [
@@ -604,8 +603,7 @@
 				}
 				{
 					command: "/function moathco:vault_convergence_broadcast"
-					id: "B6000000000000A1"
-					player_command: 0b
+					id: "7B21CD88C38F76C3"
 					type: "command"
 				}
 			]

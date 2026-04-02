@@ -1,0 +1,297 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "astra_shop"
+	group: "BB00000000000001"
+	icon: "kubejs:astra_coin"
+	id: "B001000000000001"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"§a§lWelcome to the Astra Shop."
+				""
+				"§7Submit §eAstra Coins§7 to purchase items."
+				"§7Coins are earned by completing quests across all chapters."
+				""
+				"§8Items are non-refundable. Choose wisely."
+			]
+			id: "B001000000000002"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "B001100000000001"
+				title: "Browse the shop."
+				type: "checkmark"
+			}]
+			title: "§a§lAstra Shop"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B001000000000002"]
+			description: ["§7§o10 Astra Coins§7 → §f10 Golden Apples"]
+			id: "B001000000000003"
+			rewards: [{
+				count: 10
+				id: "B001200000000001"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10
+				consume_items: true
+				id: "B001100000000002"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§f[Shop] Golden Apples ×10"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["B001000000000002"]
+			description: ["§7§o15 Astra Coins§7 → §b10 Lapis Lazuli Blocks"]
+			id: "B001000000000004"
+			rewards: [{
+				count: 10
+				id: "B001200000000002"
+				item: "minecraft:lapis_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 15
+				consume_items: true
+				id: "B001100000000003"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§b[Shop] Lapis Blocks ×10"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["B001000000000002"]
+			description: ["§7§o20 Astra Coins§7 → §e16 Gold Blocks"]
+			id: "B001000000000005"
+			rewards: [{
+				count: 16
+				id: "B001200000000003"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 20
+				consume_items: true
+				id: "B001100000000004"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§e[Shop] Gold Blocks ×16"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["B001000000000002"]
+			description: ["§7§o25 Astra Coins§7 → §b16 Diamond Blocks"]
+			id: "B001000000000006"
+			rewards: [{
+				count: 16
+				id: "B001200000000004"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 25
+				consume_items: true
+				id: "B001100000000005"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§b[Shop] Diamond Blocks ×16"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["B001000000000002"]
+			description: ["§7§o30 Astra Coins§7 → §520 XP Levels"]
+			id: "B001000000000007"
+			rewards: [{
+				id: "B001200000000005"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				count: 30
+				consume_items: true
+				id: "B001100000000006"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§5[Shop] 20 XP Levels"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["B001000000000002"]
+			description: ["§7§o40 Astra Coins§7 → §61 Nether Star"]
+			id: "B001000000000008"
+			rewards: [{
+				id: "B001200000000006"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				count: 40
+				consume_items: true
+				id: "B001100000000007"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§6[Shop] Nether Star ×1"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["B001000000000002"]
+			description: ["§7§o20 Astra Coins§7 → §71 Elytra"]
+			id: "B001000000000009"
+			rewards: [{
+				id: "B001200000000007"
+				item: "minecraft:elytra"
+				type: "item"
+			}]
+			tasks: [{
+				count: 20
+				consume_items: true
+				id: "B001100000000008"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§7[Shop] Elytra"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["B001000000000002"]
+			description: ["§7§o35 Astra Coins§7 → §aAstra Field Blade (custom sword)"]
+			id: "B00100000000000A"
+			rewards: [{
+				id: "B001200000000008"
+				item: "kubejs:moathco_field_blade"
+				type: "item"
+			}]
+			tasks: [{
+				count: 35
+				consume_items: true
+				id: "B001100000000009"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§6[Shop] Astra Field Blade"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["B001000000000002"]
+			description: ["§7§o60 Astra Coins§7 → §6Full Astra Armor Set (helmet + chest + legs + boots)"]
+			id: "B00100000000000B"
+			rewards: [
+				{
+					id: "B001200000000009"
+					item: "kubejs:moathco_helmet"
+					type: "item"
+				}
+				{
+					id: "B00120000000000A"
+					item: "kubejs:moathco_chestplate"
+					type: "item"
+				}
+				{
+					id: "B00120000000000B"
+					item: "kubejs:moathco_leggings"
+					type: "item"
+				}
+				{
+					id: "B00120000000000C"
+					item: "kubejs:moathco_boots"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 60
+				consume_items: true
+				id: "B00110000000000A"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§6[Shop] Astra Armor Set"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["B001000000000002"]
+			description: ["§7§o15 Astra Coins§7 → §e64 IE Steel Ingots"]
+			id: "B00100000000000C"
+			rewards: [{
+				count: 64
+				id: "B00120000000000D"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			tasks: [{
+				count: 15
+				consume_items: true
+				id: "B00110000000000B"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§7[Shop] IE Steel ×64"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["B001000000000002"]
+			description: ["§7§o50 Astra Coins§7 → §d1 Totem of Undying"]
+			id: "B00100000000000D"
+			rewards: [{
+				id: "B00120000000000E"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [{
+				count: 50
+				consume_items: true
+				id: "B00110000000000C"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§d[Shop] Totem of Undying"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["B001000000000002"]
+			description: ["§7§o10 Astra Coins§7 → §e64 Blaze Rods"]
+			id: "B00100000000000E"
+			rewards: [{
+				count: 64
+				id: "B00120000000000F"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10
+				consume_items: true
+				id: "B00110000000000D"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
+			title: "§6[Shop] Blaze Rods ×64"
+			x: 2.0d
+			y: 6.0d
+		}
+	]
+	title: "§a§lAstra Shop"
+}
