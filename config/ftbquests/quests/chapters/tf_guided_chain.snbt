@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "tf_guided_chain"
-	group: "AA00000000000001"
+	group: "5186F2D762C2C9E0"
 	icon: "twilightforest:twilight_shard"
-	id: "A002000000000001"
-	order_index: 1
+	id: "04592733A9CA08A4"
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,11 +17,11 @@
 				""
 				"§8The forest is vast. Stay on the path."
 			]
-			id: "A002000000000002"
+			id: "18655B2E312057C8"
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "A002100000000001"
+				id: "17A04EB1F9BCC860"
 				title: "Enter the Twilight Forest portal."
 				type: "checkmark"
 			}]
@@ -30,7 +30,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A002000000000002"]
 			description: [
 				"§3Boss 1: §fThe Naga"
 				""
@@ -42,17 +41,15 @@
 				""
 				"§eDrop: §7Naga Scale — used for Naga Scale armor."
 			]
-			id: "A002000000000003"
-			rewards: [
-				{
-					count: 5
-					id: "A002200000000001"
-					item: "kubejs:astra_coin"
-					type: "item"
-				}
-			]
+			id: "5F34B84058F67E7D"
+			rewards: [{
+				count: 5
+				id: "37471C4FA2CB5C89"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
 			tasks: [{
-				id: "A002100000000002"
+				id: "5DEB59A9B7AC7A4C"
 				item: "twilightforest:naga_scale"
 				type: "item"
 			}]
@@ -61,7 +58,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["A002000000000003"]
 			description: [
 				"§3Boss 2: §fThe Twilight Lich"
 				""
@@ -72,22 +68,22 @@
 				""
 				"§eDrop: §7Scepters, Twilight Armor — extremely useful for the rest of TF."
 			]
-			id: "A002000000000004"
+			id: "4387320D19987253"
 			rewards: [
 				{
 					count: 8
-					id: "A002200000000002"
+					id: "113BBA4B71E8C496"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "A002200000000003"
+					id: "6F0EDC80CF305940"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 			]
 			tasks: [{
-				id: "A002100000000003"
+				id: "0F8B51E486CF70E4"
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
@@ -96,7 +92,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["A002000000000004"]
 			description: [
 				"§3Boss 3: §fThe Minoshroom"
 				""
@@ -108,17 +103,15 @@
 				""
 				"§eDrop: §7Meef Stroganoff — best food in early TF."
 			]
-			id: "A002000000000005"
-			rewards: [
-				{
-					count: 8
-					id: "A002200000000004"
-					item: "kubejs:astra_coin"
-					type: "item"
-				}
-			]
+			id: "793299863A3FDFB6"
+			rewards: [{
+				count: 8
+				id: "715CD0DB92B2E09E"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
 			tasks: [{
-				id: "A002100000000004"
+				id: "455BDFAE6FC22DD6"
 				item: "twilightforest:minoshroom_trophy"
 				type: "item"
 			}]
@@ -127,7 +120,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["A002000000000005"]
 			description: [
 				"§3Boss 4: §fThe Hydra"
 				""
@@ -139,22 +131,22 @@
 				""
 				"§eDrop: §7Hydra Chop — food. Fiery Blood — used for Fiery armor."
 			]
-			id: "A002000000000006"
+			id: "6395C80DA20B1064"
 			rewards: [
 				{
 					count: 10
-					id: "A002200000000005"
+					id: "6A00562F603187D1"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "A002200000000006"
+					id: "76D57F4604A966A2"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 			]
 			tasks: [{
-				id: "A002100000000005"
+				id: "34A5B7914F045861"
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
@@ -163,7 +155,6 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["A002000000000006"]
 			description: [
 				"§3Boss 5: §fThe Knight Phantom"
 				""
@@ -175,17 +166,15 @@
 				""
 				"§eDrop: §7Knight Metal — used for strong armor and tools."
 			]
-			id: "A002000000000007"
-			rewards: [
-				{
-					count: 10
-					id: "A002200000000007"
-					item: "kubejs:astra_coin"
-					type: "item"
-				}
-			]
+			id: "2835DDB9E19D01FB"
+			rewards: [{
+				count: 10
+				id: "2867979CFD3B1030"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
 			tasks: [{
-				id: "A002100000000006"
+				id: "652E6A446712AC77"
 				item: "twilightforest:knight_phantom_trophy"
 				type: "item"
 			}]
@@ -194,7 +183,6 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["A002000000000007"]
 			description: [
 				"§3Boss 6: §fThe Ur-Ghast"
 				""
@@ -206,22 +194,22 @@
 				""
 				"§eDrop: §7Carminite — used for advanced TF crafting."
 			]
-			id: "A002000000000008"
+			id: "4A1DAD9016F0A584"
 			rewards: [
 				{
 					count: 12
-					id: "A002200000000008"
+					id: "50E9A96F5A348927"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "A002200000000009"
+					id: "54088981D43827F8"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 			]
 			tasks: [{
-				id: "A002100000000007"
+				id: "4CFB6AB8B2243C1C"
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
@@ -230,7 +218,6 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["A002000000000008"]
 			description: [
 				"§3Boss 7: §fThe Snow Queen"
 				""
@@ -242,22 +229,22 @@
 				""
 				"§eDrop: §7Ice Crystal — unique enchanting material."
 			]
-			id: "A002000000000009"
+			id: "7699D25B2A772768"
 			rewards: [
 				{
 					count: 15
-					id: "A00220000000000A"
+					id: "74317DE04F8D71D3"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "A00220000000000B"
+					id: "69DA217BF2FFA552"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 			]
 			tasks: [{
-				id: "A002100000000008"
+				id: "00A3751FBA090FF4"
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
@@ -266,7 +253,6 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["A002000000000009"]
 			description: [
 				"§3§lTwilight Forest: COMPLETE"
 				""
@@ -275,22 +261,22 @@
 				""
 				"§6Phase 3 unlocks. The industrial path continues."
 			]
-			id: "A00200000000000A"
+			id: "5D65DA0ADF332954"
 			rewards: [
 				{
 					count: 30
-					id: "A00220000000000C"
+					id: "7BCD021EC4D39350"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "A00220000000000D"
+					id: "051CE745F89D3D6D"
 					type: "xp_levels"
 					xp_levels: 25
 				}
 				{
 					count: 5
-					id: "A00220000000000E"
+					id: "319174098DD78F63"
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
@@ -298,7 +284,7 @@
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
-				id: "A002100000000009"
+				id: "412749D2D76C80AD"
 				title: "The Twilight yields to the Architect."
 				type: "checkmark"
 			}]

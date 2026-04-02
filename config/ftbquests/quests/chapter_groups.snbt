@@ -2,8 +2,8 @@
 	chapter_groups: [
 		{ id: "5EA21B61C2E147CB", title: "&6Tutorials" }
 		{ id: "3E586F2160161EEA", title: "&6Phases" }
-		{ id: "AA00000000000001", title: "&eSide Quests" }
-		{ id: "BB00000000000001", title: "&aAstra Shop" }
-		{ id: "CC00000000000001", title: "&5Prestige" }
+		{ id: "5186F2D762C2C9E0", title: "&eSide Quests" }
+		{ id: "2C13369127D75AFD", title: "&aAstra Shop" }
+		{ id: "2C8116988BC4226B", title: "&5Prestige" }
 	]
 }

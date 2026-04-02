@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "astra_shop"
-	group: "BB00000000000001"
+	group: "2C13369127D75AFD"
 	icon: "kubejs:astra_coin"
-	id: "B001000000000001"
+	id: "106CF80DF9A21876"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -17,11 +17,11 @@
 				""
 				"§8Items are non-refundable. Choose wisely."
 			]
-			id: "B001000000000002"
+			id: "5DBBC5A34F76EFF4"
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "B001100000000001"
+				id: "06EDAE9F3E516C32"
 				title: "Browse the shop."
 				type: "checkmark"
 			}]
@@ -30,19 +30,18 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["B001000000000002"]
 			description: ["§7§o10 Astra Coins§7 → §f10 Golden Apples"]
-			id: "B001000000000003"
+			id: "7B84C681915DA826"
 			rewards: [{
 				count: 10
-				id: "B001200000000001"
+				id: "7E163AF0C7463CF1"
 				item: "minecraft:golden_apple"
 				type: "item"
 			}]
 			tasks: [{
-				count: 10
 				consume_items: true
-				id: "B001100000000002"
+				count: 10L
+				id: "528E1D3CEEFFBA41"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
@@ -51,19 +50,18 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["B001000000000002"]
 			description: ["§7§o15 Astra Coins§7 → §b10 Lapis Lazuli Blocks"]
-			id: "B001000000000004"
+			id: "27948178D4CE4B45"
 			rewards: [{
 				count: 10
-				id: "B001200000000002"
+				id: "18C6DEC125440462"
 				item: "minecraft:lapis_block"
 				type: "item"
 			}]
 			tasks: [{
-				count: 15
 				consume_items: true
-				id: "B001100000000003"
+				count: 15L
+				id: "3B8A0C93E97D6E00"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
@@ -72,19 +70,18 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["B001000000000002"]
 			description: ["§7§o20 Astra Coins§7 → §e16 Gold Blocks"]
-			id: "B001000000000005"
+			id: "6452F5460A875D4F"
 			rewards: [{
 				count: 16
-				id: "B001200000000003"
+				id: "5CC4A31A557CB2F1"
 				item: "minecraft:gold_block"
 				type: "item"
 			}]
 			tasks: [{
-				count: 20
 				consume_items: true
-				id: "B001100000000004"
+				count: 20L
+				id: "4DEC047EB68D8BC2"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
@@ -93,19 +90,18 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["B001000000000002"]
 			description: ["§7§o25 Astra Coins§7 → §b16 Diamond Blocks"]
-			id: "B001000000000006"
+			id: "1237C5AC5AA9C0DD"
 			rewards: [{
 				count: 16
-				id: "B001200000000004"
+				id: "0A27B6A16D227BB4"
 				item: "minecraft:diamond_block"
 				type: "item"
 			}]
 			tasks: [{
-				count: 25
 				consume_items: true
-				id: "B001100000000005"
+				count: 25L
+				id: "4711A6F8A66B1E32"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
@@ -114,18 +110,17 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["B001000000000002"]
 			description: ["§7§o30 Astra Coins§7 → §520 XP Levels"]
-			id: "B001000000000007"
+			id: "11AC2E863ACAF04B"
 			rewards: [{
-				id: "B001200000000005"
+				id: "216210636BA4BEB0"
 				type: "xp_levels"
 				xp_levels: 20
 			}]
 			tasks: [{
-				count: 30
 				consume_items: true
-				id: "B001100000000006"
+				count: 30L
+				id: "6DE38C2FA565A082"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
@@ -134,18 +129,17 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["B001000000000002"]
 			description: ["§7§o40 Astra Coins§7 → §61 Nether Star"]
-			id: "B001000000000008"
+			id: "05FDAA5D726168B1"
 			rewards: [{
-				id: "B001200000000006"
+				id: "0E30F899954AE2E9"
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
 			tasks: [{
-				count: 40
 				consume_items: true
-				id: "B001100000000007"
+				count: 40L
+				id: "2992922F9C8D371F"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
@@ -154,18 +148,23 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["B001000000000002"]
 			description: ["§7§o20 Astra Coins§7 → §71 Elytra"]
-			id: "B001000000000009"
+			id: "18BB9018387FC56E"
 			rewards: [{
-				id: "B001200000000007"
-				item: "minecraft:elytra"
+				id: "33B4A60A303AD4C6"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			tasks: [{
-				count: 20
 				consume_items: true
-				id: "B001100000000008"
+				count: 20L
+				id: "54A83CB82DE62C4D"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
@@ -174,18 +173,23 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["B001000000000002"]
 			description: ["§7§o35 Astra Coins§7 → §aAstra Field Blade (custom sword)"]
-			id: "B00100000000000A"
+			id: "2213571D703A6295"
 			rewards: [{
-				id: "B001200000000008"
-				item: "kubejs:moathco_field_blade"
+				id: "66B8D9F3B90EAE00"
+				item: {
+					Count: 1
+					id: "kubejs:moathco_field_blade"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			tasks: [{
-				count: 35
 				consume_items: true
-				id: "B001100000000009"
+				count: 35L
+				id: "47E42E698B94E61A"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
@@ -194,35 +198,58 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["B001000000000002"]
 			description: ["§7§o60 Astra Coins§7 → §6Full Astra Armor Set (helmet + chest + legs + boots)"]
-			id: "B00100000000000B"
+			id: "0902E277E52B9410"
 			rewards: [
 				{
-					id: "B001200000000009"
-					item: "kubejs:moathco_helmet"
+					id: "6FA2671B8CD9E911"
+					item: {
+						Count: 1
+						id: "kubejs:moathco_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
-					id: "B00120000000000A"
-					item: "kubejs:moathco_chestplate"
+					id: "7EE87DCEACA7CC4E"
+					item: {
+						Count: 1
+						id: "kubejs:moathco_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
-					id: "B00120000000000B"
-					item: "kubejs:moathco_leggings"
+					id: "7CC64623D4EFDF2D"
+					item: {
+						Count: 1
+						id: "kubejs:moathco_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
-					id: "B00120000000000C"
-					item: "kubejs:moathco_boots"
+					id: "0B131D3756A2EC4C"
+					item: {
+						Count: 1
+						id: "kubejs:moathco_boots"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				count: 60
 				consume_items: true
-				id: "B00110000000000A"
+				count: 60L
+				id: "4B7729715EF7AEB2"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
@@ -231,19 +258,18 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["B001000000000002"]
 			description: ["§7§o15 Astra Coins§7 → §e64 IE Steel Ingots"]
-			id: "B00100000000000C"
+			id: "23260DD134D7D636"
 			rewards: [{
 				count: 64
-				id: "B00120000000000D"
+				id: "6C4A322AF4C57224"
 				item: "immersiveengineering:ingot_steel"
 				type: "item"
 			}]
 			tasks: [{
-				count: 15
 				consume_items: true
-				id: "B00110000000000B"
+				count: 15L
+				id: "02533C5B7EF90DD0"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
@@ -252,18 +278,17 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["B001000000000002"]
 			description: ["§7§o50 Astra Coins§7 → §d1 Totem of Undying"]
-			id: "B00100000000000D"
+			id: "299483377A211945"
 			rewards: [{
-				id: "B00120000000000E"
+				id: "09DD8A3747141433"
 				item: "minecraft:totem_of_undying"
 				type: "item"
 			}]
 			tasks: [{
-				count: 50
 				consume_items: true
-				id: "B00110000000000C"
+				count: 50L
+				id: "7D5B37B48A3D9FC2"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]
@@ -272,19 +297,18 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["B001000000000002"]
 			description: ["§7§o10 Astra Coins§7 → §e64 Blaze Rods"]
-			id: "B00100000000000E"
+			id: "4001D68E7567A1A6"
 			rewards: [{
 				count: 64
-				id: "B00120000000000F"
+				id: "590CF8D0276F9271"
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
 			tasks: [{
-				count: 10
 				consume_items: true
-				id: "B00110000000000D"
+				count: 10L
+				id: "00E93B33276D162A"
 				item: "kubejs:astra_coin"
 				type: "item"
 			}]

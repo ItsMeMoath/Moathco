@@ -2,9 +2,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "octagon"
 	filename: "endgame_prestige"
-	group: "CC00000000000001"
+	group: "2C8116988BC4226B"
 	icon: "kubejs:prestige_seal"
-	id: "C001000000000001"
+	id: "3E4C7C288C71CEFA"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -24,11 +24,11 @@
 				"§8  D A D"
 				"§8D = Awakened Draconium  A = Astra Alloy  N = Nether Star"
 			]
-			id: "C001000000000002"
+			id: "6CF4F9BD408A8C00"
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "C001100000000001"
+				id: "76452533C4E47CE4"
 				item: "kubejs:vault_convergence"
 				type: "item"
 			}]
@@ -37,7 +37,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["C001000000000002"]
 			description: [
 				"§5Prestige I — §fAwakened"
 				""
@@ -49,41 +48,40 @@
 				"§cNote: §7After Prestige I, mob HP scales further."
 				"§8Difficulty: §c★★☆☆☆"
 			]
-			id: "C001000000000003"
+			id: "71B1D95E8E60BA50"
 			rewards: [
 				{
-					id: "C001200000000001"
+					id: "3160C43163CC4C55"
 					item: "kubejs:prestige_badge_i"
 					type: "item"
 				}
 				{
-					id: "C001200000000002"
+					id: "288E5EFE1AA87A81"
 					type: "xp_levels"
 					xp_levels: 50
 				}
 				{
 					count: 5
-					id: "C001200000000003"
+					id: "1451355ED461CEF5"
 					item: "minecraft:enchanted_golden_apple"
 					type: "item"
 				}
 				{
 					count: 30
-					id: "C001200000000004"
+					id: "785854D185314F44"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
 					command: "/scoreboard players set global astra_prestige 1"
-					id: "C001200000000005"
-					player_command: 0b
+					id: "6D9E1056B19AADCA"
 					type: "command"
 				}
 			]
 			size: 2.5d
 			tasks: [{
 				consume_items: true
-				id: "C001100000000002"
+				id: "62952881981AD5B9"
 				item: "kubejs:prestige_seal"
 				type: "item"
 			}]
@@ -92,7 +90,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["C001000000000003"]
 			description: [
 				"§dPrestige II — §fAscended"
 				""
@@ -105,39 +102,38 @@
 				""
 				"§8Difficulty: §c★★★☆☆"
 			]
-			id: "C001000000000004"
+			id: "0727C2587C66DB9E"
 			rewards: [
 				{
-					id: "C001200000000006"
+					id: "432CC8F561297177"
 					item: "kubejs:prestige_badge_ii"
 					type: "item"
 				}
 				{
-					id: "C001200000000007"
+					id: "0DCB8ACD42FA5F52"
 					type: "xp_levels"
 					xp_levels: 75
 				}
 				{
 					count: 10
-					id: "C001200000000008"
+					id: "783B46A7C474D513"
 					item: "minecraft:enchanted_golden_apple"
 					type: "item"
 				}
 				{
 					count: 50
-					id: "C001200000000009"
+					id: "72C065BDF1BA7918"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C00120000000000A"
+					id: "7F510892C69AB552"
 					item: "draconicevolution:draconic_chestplate"
 					type: "item"
 				}
 				{
 					command: "/scoreboard players set global astra_prestige 2"
-					id: "C00120000000000B"
-					player_command: 0b
+					id: "07E73017FE02A434"
 					type: "command"
 				}
 			]
@@ -145,20 +141,20 @@
 			tasks: [
 				{
 					consume_items: true
-					id: "C001100000000003"
+					id: "3E1ED37F0524F745"
 					item: "kubejs:prestige_seal"
 					type: "item"
 				}
 				{
 					consume_items: true
-					id: "C001100000000004"
+					id: "51301A8140183422"
 					item: "minecraft:nether_star"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 4
-					id: "C001100000000005"
+					count: 4L
+					id: "64C48A2E5F368178"
 					item: "minecraft:diamond_block"
 					type: "item"
 				}
@@ -168,7 +164,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["C001000000000004"]
 			description: [
 				"§b§lPrestige III — §f§lTranscendent"
 				""
@@ -185,50 +180,48 @@
 				"§8Difficulty: §c★★★★★"
 				"§8§oFinal Prestige. Legendary status."
 			]
-			id: "C001000000000005"
+			id: "343F2440DBAF6ADE"
 			rewards: [
 				{
-					id: "C00120000000000C"
+					id: "18E1A2C6712A1ADB"
 					item: "kubejs:prestige_badge_iii"
 					type: "item"
 				}
 				{
-					id: "C00120000000000D"
+					id: "2126161BB73309FD"
 					type: "xp_levels"
 					xp_levels: 100
 				}
 				{
 					count: 20
-					id: "C00120000000000E"
+					id: "2E85BFB193156007"
 					item: "minecraft:enchanted_golden_apple"
 					type: "item"
 				}
 				{
 					count: 100
-					id: "C00120000000000F"
+					id: "29FB412FBC4B834F"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "C001200000000010"
+					id: "4B672E184A4FB037"
 					item: "draconicevolution:draconic_chestplate"
 					type: "item"
 				}
 				{
-					id: "C001200000000011"
+					id: "1DD93DDD53BDB6EB"
 					item: "draconicevolution:draconic_sword"
 					type: "item"
 				}
 				{
 					command: "/scoreboard players set global astra_prestige 3"
-					id: "C001200000000012"
-					player_command: 0b
+					id: "74756554145AF0E6"
 					type: "command"
 				}
 				{
 					command: "/title @a title {\"text\":\"✦ TRANSCENDENT ✦\",\"color\":\"aqua\",\"bold\":true}"
-					id: "C001200000000013"
-					player_command: 0b
+					id: "2A38804A66BB5B28"
 					type: "command"
 				}
 			]
@@ -237,20 +230,20 @@
 			tasks: [
 				{
 					consume_items: true
-					id: "C001100000000006"
+					id: "647175B33C81FC08"
 					item: "kubejs:prestige_seal"
 					type: "item"
 				}
 				{
 					consume_items: true
-					count: 3
-					id: "C001100000000007"
+					count: 3L
+					id: "202EA67A7111AD4D"
 					item: "minecraft:nether_star"
 					type: "item"
 				}
 				{
 					consume_items: true
-					id: "C001100000000008"
+					id: "754BBA3AFEE2D2BA"
 					item: "draconicevolution:awakened_draconium_block"
 					type: "item"
 				}

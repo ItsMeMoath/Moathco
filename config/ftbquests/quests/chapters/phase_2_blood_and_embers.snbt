@@ -586,12 +586,11 @@
 				}
 				{
 					command: "/function moathco:phase_2_broadcast"
-					id: "B2000000000000A1"
-					player_command: 0b
+					id: "62DB01BD16FBF05B"
 					type: "command"
 				}
 				{
-					id: "B2000000000000A2"
+					id: "0B0C14B929D62CC3"
 					item: "kubejs:moathco_files_vol_2"
 					type: "item"
 				}

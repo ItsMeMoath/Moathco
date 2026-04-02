@@ -18,7 +18,7 @@
 				title: "Swords"
 				type: "checkmark"
 			}]
-			title: "&e&l⚔ Weapons & Swords"
+			title: "&6&l⚔ Weapons & Swords"
 			x: 2.0d
 			y: -2.0d
 		}
@@ -32,7 +32,7 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			title: "&4&lS-Tier Mastery"
+			title: "&6&lS-Tier Mastery"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -336,7 +336,7 @@
 			id: "4D3708886B6DDA3E"
 			shape: "square"
 			size: 1.5d
-			title: "&e&lB"
+			title: "&6&lB"
 			x: -2.0d
 			y: 6.0d
 		}
@@ -489,7 +489,7 @@
 			id: "3F1D90FCCF262D91"
 			shape: "square"
 			size: 1.5d
-			title: "&a&lC"
+			title: "&6&lC"
 			x: -2.0d
 			y: 9.0d
 		}
@@ -600,7 +600,7 @@
 			id: "6BC78C396E539652"
 			shape: "square"
 			size: 1.5d
-			title: "&7&lD"
+			title: "&6&lD"
 			x: -2.0d
 			y: 12.0d
 		}
@@ -668,7 +668,7 @@
 				title: "Armor"
 				type: "checkmark"
 			}]
-			title: "&b&l🛡 Armor (Chestplates)"
+			title: "&6&l🛡 Armor (Chestplates)"
 			x: 2.0d
 			y: 15.0d
 		}
@@ -682,7 +682,7 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			title: "&4&lS-Tier Mastery"
+			title: "&6&lS-Tier Mastery"
 			x: -2.0d
 			y: 17.5d
 		}
@@ -969,7 +969,7 @@
 			id: "4DE81E32A8FEFDA6"
 			shape: "square"
 			size: 1.5d
-			title: "&e&lB"
+			title: "&6&lB"
 			x: -2.0d
 			y: 23.5d
 		}
@@ -1116,7 +1116,7 @@
 			id: "70DEFFDA15429469"
 			shape: "square"
 			size: 1.5d
-			title: "&a&lC"
+			title: "&6&lC"
 			x: -2.0d
 			y: 26.5d
 		}
@@ -1233,7 +1233,7 @@
 			id: "16A17E428F62864E"
 			shape: "square"
 			size: 1.5d
-			title: "&7&lD"
+			title: "&6&lD"
 			x: -2.0d
 			y: 29.5d
 		}
@@ -1328,7 +1328,7 @@
 			id: "24A8167301DE5442"
 			shape: "square"
 			size: 1.5d
-			title: "&4&lS"
+			title: "&6&lS"
 			x: -2.0d
 			y: 35.5d
 		}
@@ -1462,7 +1462,7 @@
 			id: "5C43A6802BC3BDB2"
 			shape: "square"
 			size: 1.5d
-			title: "&e&lB"
+			title: "&6&lB"
 			x: -2.0d
 			y: 41.5d
 		}
@@ -1520,7 +1520,7 @@
 			id: "37AAF5A1A6DD18A1"
 			shape: "square"
 			size: 1.5d
-			title: "&a&lC"
+			title: "&6&lC"
 			x: -2.0d
 			y: 44.5d
 		}
@@ -1577,7 +1577,7 @@
 			id: "6B2FD93BD4A6260E"
 			shape: "square"
 			size: 1.5d
-			title: "&7&lD"
+			title: "&6&lD"
 			x: -2.0d
 			y: 47.5d
 		}
@@ -1636,5 +1636,5 @@
 			y: 47.5d
 		}
 	]
-	title: "&cGear Tierlist"
+	title: "&6Gear Tierlist"
 }

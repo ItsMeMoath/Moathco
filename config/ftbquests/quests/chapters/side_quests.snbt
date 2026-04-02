@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "side_quests"
-	group: "AA00000000000001"
+	group: "5186F2D762C2C9E0"
 	icon: "minecraft:nether_star"
-	id: "A001000000000001"
-	order_index: 0
+	id: "1C197E061DF22DCE"
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -15,11 +15,11 @@
 				"§7Complete these alongside your main phase progression."
 				"§7Coins can be spent in the §aAstra Shop§7."
 			]
-			id: "A001000000000002"
+			id: "59A351C0D5C3CB11"
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "A001100000000001"
+				id: "2825757A68C1F06C"
 				title: "Challenges await."
 				type: "checkmark"
 			}]
@@ -28,20 +28,17 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: ["§7100 zombies. That's a start. Kill them all and collect your due."]
-			id: "A001000000000003"
-			rewards: [
-				{
-					count: 5
-					id: "A001200000000001"
-					item: "kubejs:astra_coin"
-					type: "item"
-				}
-			]
+			id: "44FAAF8FC3ED6965"
+			rewards: [{
+				count: 5
+				id: "6A49B306C2B4731A"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:zombie"
-				id: "A001100000000002"
+				id: "0F2542949AC4F2A4"
 				type: "kill"
 				value: 100L
 			}]
@@ -50,20 +47,17 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: ["§7Creepers don't care about your builds. Return the favor."]
-			id: "A001000000000004"
-			rewards: [
-				{
-					count: 5
-					id: "A001200000000002"
-					item: "kubejs:astra_coin"
-					type: "item"
-				}
-			]
+			id: "361B1B42F4FE997E"
+			rewards: [{
+				count: 5
+				id: "06C0DB0BD428738A"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:creeper"
-				id: "A001100000000003"
+				id: "13BDB9BAE6F5817F"
 				type: "kill"
 				value: 50L
 			}]
@@ -72,20 +66,17 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: ["§7200 skeletons. Arrows everywhere. Collect their dust."]
-			id: "A001000000000005"
-			rewards: [
-				{
-					count: 5
-					id: "A001200000000003"
-					item: "kubejs:astra_coin"
-					type: "item"
-				}
-			]
+			id: "7C9E2ABD06C6B71D"
+			rewards: [{
+				count: 5
+				id: "1EFE9A7F2C6D8739"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:skeleton"
-				id: "A001100000000004"
+				id: "0C6791B3E3096634"
 				type: "kill"
 				value: 200L
 			}]
@@ -94,20 +85,17 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: ["§7100 blazes. You need them anyway. Make it count."]
-			id: "A001000000000006"
-			rewards: [
-				{
-					count: 8
-					id: "A001200000000004"
-					item: "kubejs:astra_coin"
-					type: "item"
-				}
-			]
+			id: "39D9A7894172B224"
+			rewards: [{
+				count: 8
+				id: "61195A1ECEB4AF46"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:blaze"
-				id: "A001100000000005"
+				id: "59BC845A02D6E6AD"
 				type: "kill"
 				value: 100L
 			}]
@@ -116,20 +104,17 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: ["§7Enderman. 50 of them. Watch your eyes."]
-			id: "A001000000000007"
-			rewards: [
-				{
-					count: 6
-					id: "A001200000000005"
-					item: "kubejs:astra_coin"
-					type: "item"
-				}
-			]
+			id: "627BB2CC8A611837"
+			rewards: [{
+				count: 6
+				id: "0889D60141591A3E"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
-				id: "A001100000000006"
+				id: "10E65AA5BE69EC42"
 				type: "kill"
 				value: 50L
 			}]
@@ -138,28 +123,27 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: [
 				"§7The Wither. Three heads, zero mercy."
 				"§7Craft the Wither, survive, collect the star."
 			]
-			id: "A001000000000008"
+			id: "611FC1FB522210BF"
 			rewards: [
 				{
 					count: 20
-					id: "A001200000000006"
+					id: "1ECA46FA8EBF980C"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "A001200000000007"
+					id: "485CAF0515131FBB"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 			]
 			tasks: [{
 				entity: "minecraft:wither"
-				id: "A001100000000007"
+				id: "03C4600D37ED408B"
 				type: "kill"
 				value: 1L
 			}]
@@ -168,29 +152,28 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: [
 				"§7The Elder Guardian lurks beneath the ocean monument."
 				"§7Break its curse. Take its loot."
 			]
-			id: "A001000000000009"
+			id: "0862C360F1A0007E"
 			rewards: [
 				{
 					count: 15
-					id: "A001200000000008"
+					id: "03A36FBEA9468A8C"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
 					count: 8
-					id: "A001200000000009"
+					id: "71DA9C6E19139F5B"
 					item: "minecraft:prismarine_shard"
 					type: "item"
 				}
 			]
 			tasks: [{
 				entity: "minecraft:elder_guardian"
-				id: "A001100000000008"
+				id: "6207C7F8205D67FA"
 				type: "kill"
 				value: 1L
 			}]
@@ -199,23 +182,20 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: [
 				"§7Phantoms spawn when you skip sleep."
 				"§7Kill 50. Your insomnia is noted."
 			]
-			id: "A00100000000000A"
-			rewards: [
-				{
-					count: 6
-					id: "A00120000000000A"
-					item: "kubejs:astra_coin"
-					type: "item"
-				}
-			]
+			id: "43C675916433B4B8"
+			rewards: [{
+				count: 6
+				id: "01ADF959B58A568F"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:phantom"
-				id: "A00110000000000A"
+				id: "1B9E3522AE23D259"
 				type: "kill"
 				value: 50L
 			}]
@@ -224,22 +204,19 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: [
 				"§7Collect 64 diamonds. That's the minimum."
 				"§7Get Fortune III first. You're welcome."
 			]
-			id: "A00100000000000B"
-			rewards: [
-				{
-					count: 8
-					id: "A00120000000000B"
-					item: "kubejs:astra_coin"
-					type: "item"
-				}
-			]
+			id: "6554AFED74225F0C"
+			rewards: [{
+				count: 8
+				id: "0C0C9E8BE3D6C5CD"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
 			tasks: [{
-				id: "A00110000000000B"
+				id: "38FC0D6B64095A74"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
@@ -248,23 +225,20 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: [
 				"§7Craft 64 IE Steel Ingots."
 				"§7The backbone of everything. Start early."
 			]
-			id: "A00100000000000C"
-			rewards: [
-				{
-					count: 6
-					id: "A00120000000000C"
-					item: "kubejs:astra_coin"
-					type: "item"
-				}
-			]
+			id: "37B41ECA87F8A2D8"
+			rewards: [{
+				count: 6
+				id: "15BD920960BB63F3"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
 			tasks: [{
-				count: 64
-				id: "A00110000000000C"
+				count: 64L
+				id: "5693D6B0655AF903"
 				item: "immersiveengineering:ingot_steel"
 				type: "item"
 			}]
@@ -273,28 +247,27 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: [
 				"§7Collect 10 Nether Stars."
 				"§7Build that beacon. You earned it."
 			]
-			id: "A00100000000000D"
+			id: "1991F2274A492BB2"
 			rewards: [
 				{
 					count: 25
-					id: "A00120000000000D"
+					id: "22B520E3A46A54C2"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "A00120000000000E"
+					id: "4E7848DD36EB77B4"
 					type: "xp_levels"
 					xp_levels: 20
 				}
 			]
 			tasks: [{
-				count: 10
-				id: "A00110000000000D"
+				count: 10L
+				id: "0A90211A29E659B4"
 				item: "minecraft:nether_star"
 				type: "item"
 			}]
@@ -303,29 +276,28 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: [
 				"§7Survive a Blood Moon."
 				"§7It rises every 7 days. Do not hide."
 				"§8Mark this quest complete manually at dawn."
 			]
-			id: "A00100000000000E"
+			id: "59E66335A2C4890E"
 			rewards: [
 				{
 					count: 15
-					id: "A00120000000000F"
+					id: "4ED4A52E12B68495"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
 					count: 3
-					id: "A001200000000010"
+					id: "1FDE3112891A9A14"
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "A00110000000000E"
+				id: "30AFD8CC168FA643"
 				title: "Survived a Blood Moon (mark at dawn)"
 				type: "checkmark"
 			}]
@@ -334,48 +306,47 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: [
 				"§7Collect one of each Phase Seal."
 				"§7You forged them. Now show them off."
 			]
-			id: "A00100000000000F"
+			id: "0F04A2D53B19C009"
 			rewards: [
 				{
 					count: 30
-					id: "A001200000000011"
+					id: "0B3843F3F6DBFF54"
 					item: "kubejs:astra_coin"
 					type: "item"
 				}
 				{
-					id: "A001200000000012"
+					id: "44372E766470D6C1"
 					type: "xp_levels"
 					xp_levels: 30
 				}
 			]
 			tasks: [
 				{
-					id: "A001100000000010"
+					id: "2442D0EA934349A0"
 					item: "kubejs:rusted_conduit_core"
 					type: "item"
 				}
 				{
-					id: "A001100000000011"
+					id: "60E15430D794D317"
 					item: "kubejs:crimson_circuit_of_passage"
 					type: "item"
 				}
 				{
-					id: "A001100000000012"
+					id: "67BC0F66E8B72FF4"
 					item: "kubejs:twilight_sigil_plate"
 					type: "item"
 				}
 				{
-					id: "A001100000000013"
+					id: "7B359CF5949E2F74"
 					item: "kubejs:reactor_authority_seal"
 					type: "item"
 				}
 				{
-					id: "A001100000000014"
+					id: "4EE30A2EF4CF72CE"
 					item: "kubejs:heart_of_the_vault"
 					type: "item"
 				}
@@ -385,23 +356,19 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: [
 				"§7Reach the End. Stand on end stone."
 				"§7The dragon is optional. The visit is not."
 			]
-			id: "A001000000000010"
-			rewards: [
-				{
-					count: 10
-					id: "A001200000000013"
-					item: "kubejs:astra_coin"
-					type: "item"
-				}
-			]
+			id: "295AB6C4E1CEBCAA"
+			rewards: [{
+				count: 10
+				id: "381E44249FDF4EF9"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
 			tasks: [{
-				count: 1
-				id: "A001100000000015"
+				id: "19F887A4564B1532"
 				item: "minecraft:end_stone"
 				type: "item"
 			}]
@@ -410,23 +377,20 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["A001000000000002"]
 			description: [
 				"§7Become a bee."
 				"§7Collect 64 honey bottles. Don't ask why."
 			]
-			id: "A001000000000011"
-			rewards: [
-				{
-					count: 3
-					id: "A001200000000014"
-					item: "kubejs:astra_coin"
-					type: "item"
-				}
-			]
+			id: "27D3F9BF20956889"
+			rewards: [{
+				count: 3
+				id: "4F6C105663F4D13A"
+				item: "kubejs:astra_coin"
+				type: "item"
+			}]
 			tasks: [{
-				count: 64
-				id: "A001100000000016"
+				count: 64L
+				id: "7CF53A2C1E0D9913"
 				item: "minecraft:honey_bottle"
 				type: "item"
 			}]
