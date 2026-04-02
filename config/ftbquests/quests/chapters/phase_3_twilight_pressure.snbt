@@ -495,17 +495,17 @@
 		{
 			dependencies: ["59D33646C70C8E81"]
 			description: [
-				"§7Four lords dead. Network running. Dragon egg secured.",
-				"",
-				"§eCraft the §3Twilight Sigil Plate§e:",
-				"§f  N_L",
-				"§f  _C_",
-				"§f  H_S",
-				"§3N §f= Naga Scale (top-left)   §3L §f= Lich Trophy (top-right)",
-				"§3H §f= Hydra Chop (bot-left)   §3S §f= Snow Queen Trophy (bot-right)",
-				"§a C §f= RS Processor Binding (center)",
-				"",
-				"§a✔ UNLOCKS§f: Mekanism Metallurgic Infuser recipe",
+				"§7Four lords dead. Network running. Dragon egg secured."
+				""
+				"§eCraft the §3Twilight Sigil Plate§e:"
+				"§f  N_L"
+				"§f  _C_"
+				"§f  H_S"
+				"§3N §f= Naga Scale (top-left)   §3L §f= Lich Trophy (top-right)"
+				"§3H §f= Hydra Chop (bot-left)   §3S §f= Snow Queen Trophy (bot-right)"
+				"§a C §f= RS Processor Binding (center)"
+				""
+				"§a✔ UNLOCKS§f: Mekanism Metallurgic Infuser recipe"
 				"§c▶ Required to enter Phase 4."
 			]
 			id: "3E391B572709B12B"
@@ -524,6 +524,17 @@
 					count: 5
 					id: "611B7C47C83DAFD1"
 					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_3_broadcast"
+					id: "B3000000000000A1"
+					player_command: 0b
+					type: "command"
+				}
+				{
+					id: "B3000000000000A2"
+					item: "kubejs:moathco_files_vol_3"
 					type: "item"
 				}
 			]

@@ -414,16 +414,16 @@
 		{
 			dependencies: ["4C32B2BBA14F4DD6"]
 			description: [
-				"§7Factory running. Reactor online. Two gods dead.",
-				"",
-				"§eCraft the §cReactor Authority Seal§e:",
-				"§f  CAC",
-				"§f  MNM",
-				"§f  CAC",
-				"§cC §f= Ignited Revenant's Eye   §cA §f= Ender Golem Eye",
-				"§6M §f= Mekanism Infused Alloy   §eN §f= NC Reactor Casing (center)",
-				"",
-				"§a✔ UNLOCKS§f: AE2 Controller recipe",
+				"§7Factory running. Reactor online. Two gods dead."
+				""
+				"§eCraft the §cReactor Authority Seal§e:"
+				"§f  CAC"
+				"§f  MNM"
+				"§f  CAC"
+				"§cC §f= Ignited Revenant's Eye   §cA §f= Ender Golem Eye"
+				"§6M §f= Mekanism Infused Alloy   §eN §f= NC Reactor Casing (center)"
+				""
+				"§a✔ UNLOCKS§f: AE2 Controller recipe"
 				"§c▶ Required to enter Phase 5."
 			]
 			id: "2E05DEF2519A255A"
@@ -442,6 +442,17 @@
 					count: 5
 					id: "0C5B2FFCF83B7C6F"
 					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_4_broadcast"
+					id: "B4000000000000A1"
+					player_command: 0b
+					type: "command"
+				}
+				{
+					id: "B4000000000000A2"
+					item: "kubejs:moathco_files_vol_4"
 					type: "item"
 				}
 			]

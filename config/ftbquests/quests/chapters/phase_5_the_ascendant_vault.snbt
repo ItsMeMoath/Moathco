@@ -496,19 +496,19 @@
 		{
 			dependencies: ["305D291A527F1817"]
 			description: [
-				"§d§lYou built it all.",
-				"§7Iron. Blood. Four Twilight lords. A nuclear reactor.",
-				"§7A digital empire. Two dead gods. A draconic sword.",
-				"",
-				"§eCraft the §dHeart of the Vault§e:",
-				"§f  ADA",
-				"§f  BHB",
-				"§f  ACA",
-				"§9A §f= AE2 Fluix Crystal (×4 corners)",
-				"§dD §f= Draconium Ingot (top)   §4B §f= Master Blood Orb (sides)",
-				"§cH §f= Revenant's Eye (center)   §6C §f= Mekanism Atomic Alloy (bottom)",
-				"",
-				"§a✔ UNLOCKS§f: Draconic Evolution Fusion Crafting Core recipe",
+				"§d§lYou built it all."
+				"§7Iron. Blood. Four Twilight lords. A nuclear reactor."
+				"§7A digital empire. Two dead gods. A draconic sword."
+				""
+				"§eCraft the §dHeart of the Vault§e:"
+				"§f  ADA"
+				"§f  BHB"
+				"§f  ACA"
+				"§9A §f= AE2 Fluix Crystal (×4 corners)"
+				"§dD §f= Draconium Ingot (top)   §4B §f= Master Blood Orb (sides)"
+				"§cH §f= Revenant's Eye (center)   §6C §f= Mekanism Atomic Alloy (bottom)"
+				""
+				"§a✔ UNLOCKS§f: Draconic Evolution Fusion Crafting Core recipe"
 				"§d▶ You have ascended."
 			]
 			id: "06A69F243471602B"
@@ -534,6 +534,17 @@
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
+				{
+					command: "/function moathco:phase_5_broadcast"
+					id: "B5000000000000A1"
+					player_command: 0b
+					type: "command"
+				}
+				{
+					id: "B5000000000000A2"
+					item: "kubejs:moathco_files_vol_5"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 2.5d
@@ -549,34 +560,34 @@
 		{
 			dependencies: ["06A69F243471602B"]
 			description: [
-				"§6§l✦ THE CONVERGENCE ✦",
-				"",
-				"§7Five phases. Five seals. Every system tamed.",
-				"§7You have bled, burned, and built your way to this moment.",
-				"",
-				"§eNow sacrifice it all. The Dragon's Egg. The Heart itself.",
-				"§eForge the §6Vault Convergence§e — proof that you are the Architect.",
-				"",
-				"§fRecipe (crafting table):",
-				"§f  AEA",
-				"§f  QHQ",
-				"§f  AMA",
-				"§dA §f= Awakened Draconium Ingot (×4)",
-				"§5E §f= Dragon Egg   §dH §f= Heart of the Vault",
-				"§4Q §f= Master Blood Orb (×2)   §6M §f= Atomic Alloy",
-				"",
-				"§c⚠ The Dragon Egg and Heart of the Vault are consumed.",
+				"§6§l✦ THE CONVERGENCE ✦"
+				""
+				"§7Five phases. Five seals. Every system tamed."
+				"§7You have bled, burned, and built your way to this moment."
+				""
+				"§eNow sacrifice it all. The Dragon's Egg. The Heart itself."
+				"§eForge the §6Vault Convergence§e — proof that you are the Architect."
+				""
+				"§fRecipe (crafting table):"
+				"§f  AEA"
+				"§f  QHQ"
+				"§f  AMA"
+				"§dA §f= Awakened Draconium Ingot (×4)"
+				"§5E §f= Dragon Egg   §dH §f= Heart of the Vault"
+				"§4Q §f= Master Blood Orb (×2)   §6M §f= Atomic Alloy"
+				""
+				"§c⚠ The Dragon Egg and Heart of the Vault are consumed."
 				"§a✔ §6You are the Architect. §aMoathCo Adventure — Complete."
 			]
 			id: "7C4A8E1F3B2D9A56"
 			rewards: [
 				{
-					id: "B1C2D3E4F5A67890"
+					id: "53C2523970F02844"
 					type: "xp_levels"
 					xp_levels: 100
 				}
 				{
-					id: "A9B8C7D6E5F43210"
+					id: "01AE206368109716"
 					item: "draconicevolution:draconic_chestplate"
 					type: "item"
 				}
@@ -587,15 +598,21 @@
 				}
 				{
 					count: 20
-					id: "FEDCBA9876543210"
+					id: "2A3D0556AD8584B9"
 					item: "minecraft:golden_apple"
 					type: "item"
+				}
+				{
+					command: "/function moathco:vault_convergence_broadcast"
+					id: "B6000000000000A1"
+					player_command: 0b
+					type: "command"
 				}
 			]
 			shape: "octagon"
 			size: 3.0d
 			tasks: [{
-				id: "E1F2A3B4C5D67890"
+				id: "799193B801B487AD"
 				item: "kubejs:vault_convergence"
 				type: "item"
 			}]

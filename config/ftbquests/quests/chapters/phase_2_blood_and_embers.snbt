@@ -554,16 +554,16 @@
 		{
 			dependencies: ["66C9753D274441C6"]
 			description: [
-				"§7Blood, fire, and HV wire — forged into one circuit.",
-				"",
-				"§eCraft the §4Crimson Circuit of Passage§e:",
-				"§f  _B_",
-				"§f  SWH",
-				"§f  _B_",
-				"§4B §f= Blaze Powder   §6H §f= HV Steel Wire Coil",
-				"§4W §f= Weak Blood Orb   §7S §f= Blank Slate",
-				"",
-				"§a✔ UNLOCKS§f: Refined Storage Controller recipe",
+				"§7Blood, fire, and HV wire — forged into one circuit."
+				""
+				"§eCraft the §4Crimson Circuit of Passage§e:"
+				"§f  _B_"
+				"§f  SWH"
+				"§f  _B_"
+				"§4B §f= Blaze Powder   §6H §f= HV Steel Wire Coil"
+				"§4W §f= Weak Blood Orb   §7S §f= Blank Slate"
+				""
+				"§a✔ UNLOCKS§f: Refined Storage Controller recipe"
 				"§c▶ Required to enter Phase 3."
 			]
 			id: "51FA255044523152"
@@ -582,6 +582,17 @@
 					count: 5
 					id: "68AEE7F8ACA98CE3"
 					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					command: "/function moathco:phase_2_broadcast"
+					id: "B2000000000000A1"
+					player_command: 0b
+					type: "command"
+				}
+				{
+					id: "B2000000000000A2"
+					item: "kubejs:moathco_files_vol_2"
 					type: "item"
 				}
 			]

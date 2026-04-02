@@ -1,5 +1,4 @@
 {
-	background: "images/phase1_bg.png"
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "phase_1_the_rusted_dawn"
@@ -26,7 +25,7 @@
 				type: "checkmark"
 			}]
 			title: "§6§lThe Rusted Dawn"
-			x: 0.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -53,8 +52,8 @@
 				}
 			]
 			title: "First Light"
-			x: 0.0d
-			y: 2.5d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["140C190F2236AB9A"]
@@ -73,8 +72,8 @@
 				type: "item"
 			}]
 			title: "First Blood"
-			x: 0.0d
-			y: 4.5d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4C34311594901F7C"]
@@ -129,8 +128,8 @@
 				}
 			]
 			title: "Iron Will"
-			x: 0.0d
-			y: 6.5d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1D5188BCB2B4116B"]
@@ -154,8 +153,8 @@
 				type: "item"
 			}]
 			title: "§6Engineer's Hammer"
-			x: 0.0d
-			y: 8.5d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3A498BDFC7913AB1"]
@@ -182,8 +181,8 @@
 				type: "item"
 			}]
 			title: "§6Coke Oven"
-			x: 0.0d
-			y: 10.5d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["597C2648CE656821"]
@@ -210,7 +209,7 @@
 			}]
 			title: "Treated Wood"
 			x: 0.0d
-			y: 12.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3F3C77FD8FCCEF18"]
@@ -237,13 +236,13 @@
 				}
 				{
 					id: "7B0F8DB7946ABA2B"
-					item: "immersiveengineering:kinetic_dynamo"
+					item: "immersiveengineering:dynamo"
 					type: "item"
 				}
 			]
 			title: "Waterwheel Power"
-			x: 0.0d
-			y: 14.5d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["082D5A38E09BCCC7"]
@@ -270,7 +269,7 @@
 			]
 			title: "LV Wire Network"
 			x: 0.0d
-			y: 16.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7BB9E9D3704DC34F"]
@@ -295,10 +294,12 @@
 				type: "item"
 			}]
 			title: "Metal Press"
-			x: 0.0d
-			y: 18.5d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["6E92A09091E30F85"]
+			dependency_requirement: "one_completed"
 			description: ["Two dust per ore. The Crusher doubles your ore output permanently — build it early and never look at a vanilla furnace again. Multiblock: 3 blocks wide. Right-click center with Hammer."]
 			id: "749A75728C8D0E57"
 			rewards: [
@@ -320,8 +321,8 @@
 				type: "item"
 			}]
 			title: "§6The Crusher"
-			x: 0.0d
-			y: 20.5d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["749A75728C8D0E57"]
@@ -349,8 +350,8 @@
 				type: "item"
 			}]
 			title: "§6Steel Alloy"
-			x: 0.0d
-			y: 22.5d
+			x: -2.6d
+			y: 1.9500000000000002d
 		}
 		{
 			dependencies: ["2E24A1F16AF4D84B"]
@@ -368,8 +369,8 @@
 				type: "item"
 			}]
 			title: "§eMachine Frame"
-			x: 0.0d
-			y: 24.5d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0AEAF6F19EA35B76"]
@@ -394,8 +395,8 @@
 				type: "item"
 			}]
 			title: "Redstone Furnace"
-			x: 0.0d
-			y: 26.5d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["61DD4FC7C5B42ED2"]
@@ -420,8 +421,8 @@
 				type: "item"
 			}]
 			title: "The Pulverizer"
-			x: 0.0d
-			y: 28.5d
+			x: -3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["63C14D13AECF8341"]
@@ -446,8 +447,8 @@
 				type: "item"
 			}]
 			title: "Stirling Dynamo"
-			x: 0.0d
-			y: 30.5d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7806A5817F2146AD"]
@@ -464,8 +465,8 @@
 				type: "item"
 			}]
 			title: "Energy Cell"
-			x: 0.0d
-			y: 32.5d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0014F9416996E0B4"]
@@ -492,8 +493,8 @@
 				type: "item"
 			}]
 			title: "§eRF Coil"
-			x: 0.0d
-			y: 34.5d
+			x: -0.65d
+			y: -2.6d
 		}
 		{
 			dependencies: ["06F23FE6E31732A1"]
@@ -511,8 +512,8 @@
 				type: "item"
 			}]
 			title: "§5Worn Notebook"
-			x: 0.0d
-			y: 36.5d
+			x: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4F1DDE5E3F7F8C4B"]
@@ -529,8 +530,8 @@
 				type: "item"
 			}]
 			title: "Arcane Pedestal"
-			x: 0.0d
-			y: 38.5d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["20F6748ABAD8CF4A"]
@@ -555,8 +556,8 @@
 				type: "item"
 			}]
 			title: "Imbuement Chamber"
-			x: 0.0d
-			y: 40.5d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["39D37997152D2F05"]
@@ -581,8 +582,8 @@
 				type: "item"
 			}]
 			title: "Source Gem"
-			x: 0.0d
-			y: 42.5d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["737C6AC6E24EC908"]
@@ -607,8 +608,8 @@
 				type: "item"
 			}]
 			title: "Source Link"
-			x: 0.0d
-			y: 44.5d
+			x: 1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["498A78FE975F091E"]
@@ -635,8 +636,8 @@
 				type: "item"
 			}]
 			title: "§5Apprentice Spellbook"
-			x: 0.0d
-			y: 46.5d
+			x: 1.9500000000000002d
+			y: 4.550000000000001d
 		}
 		{
 			dependencies: ["359080C75276169C"]
@@ -671,6 +672,17 @@
 					item: "minecraft:golden_apple"
 					type: "item"
 				}
+				{
+					command: "/function moathco:phase_1_broadcast"
+					id: "B1000000000000A1"
+					player_command: 0b
+					type: "command"
+				}
+				{
+					id: "B1000000000000A2"
+					item: "kubejs:moathco_files_vol_1"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 2.25d
@@ -680,8 +692,8 @@
 				type: "item"
 			}]
 			title: "§6§l⚙ The Iron Oath ⚙"
-			x: 0.0d
-			y: 50.0d
+			x: 3.375d
+			y: 5.625d
 		}
 	]
 	title: "§6Phase 1: The Rusted Dawn"
